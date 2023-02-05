@@ -22,7 +22,7 @@ echo "deb https://artifacts.elastic.co/packages/oss-6.x/apt stable main" | sudo 
 ```
 Atualize o sistema.
 ```
-sudo apt update
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 ```
 Instale o Elasticsearch.
 ```
