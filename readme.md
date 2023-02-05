@@ -26,7 +26,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 ```
 Instale o Elasticsearch.
 ```
-sudo apt-get -y install elasticsearch-oss
+sudo apt-get update && sudo apt-get install elasticsearch
 ```
 Edite o arquivo de configuração do Elasticsearch.
 ```
