@@ -8,7 +8,7 @@ Crie um usuário não raiz com acesso sudo.
 
 Instale o OpenJDK exigido pelo Elasticsearch e outras dependências.     
 ```
-sudo apt -y install bash-completion apt-transport-https uuid-runtime pwgen openjdk-11-jre-headless
+sudo apt -y install bash-completion apt-transport-https uuid-runtime pwgen openjdk-17-jre-headless
 ```
 #### 2. Instale o Elasticsearch
 
